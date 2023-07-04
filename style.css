@@ -1,1 +1,517 @@
-footer p,nav ul li{font-family:'Courier New',Courier,monospace}#contenu_cv,h1{word-wrap:break-word}.boite_text_bande_noir h3,h2:hover{text-decoration:underline}#Partie_haute_bande_blanche h1,#boite_text #titre_contact{background-color:transparent;color:#000}#page_droite,form{width:70%}#bande_noir,.production:hover,h1,nav ul li:hover{background-color:#000}#boite_cv,#bouton_sub,#logo,#page,header,input,nav,nav ul li,nav ul li a,textarea{width:100%}.production,input[type=submit],nav ul li{border:10px solid #000}img,textarea{max-width:100%}.boite_text_bande_noir,.description,h1,nav ul li:hover a{color:#fff}*{margin:0;padding:0;list-style:none;text-decoration:none}body{background-color:#e8e8e8}#page{display:flex;flex-direction:row;justify-content:space-between}#page_gauche,nav{flex-direction:column;display:flex}#page_gauche{height:100vh;width:30%;align-items:center;background-color:#fff;position:sticky;top:0}header{height:25%;min-height:100px;display:flex;align-items:center}#boite_logo{width:25%;margin:auto}nav{height:55%;min-height:300px;align-items:center}nav ul{height:100%;display:flex;flex-direction:column;justify-content:space-around;align-items:center;width:40%}nav ul li{text-align:center;height:40px;overflow:hidden}nav ul li a{color:#000;height:100%;display:flex;justify-content:center;align-items:center;font-size:.7em}footer{height:20%;display:flex;align-items:center}footer p{padding:30px;font-size:.7em}#boite_text{margin-left:5%;font-family:Arial,Helvetica,sans-serif}h1{margin-top:150px;font-size:5em}.production,h2,input[type=submit]{background-color:#fff}h2{margin-top:1%;font-size:3em;color:#000}#boite_cv{padding-top:5%;padding-bottom:5%;display:flex;justify-content:center}#contenu_cv{width:80%;display:flex;flex-direction:row;justify-content:space-between;font-size:.9em}#bande_noir,#contenu_bande_noir{display:flex;flex-direction:column}#contenu_cv h1{font-size:2em}#bande_noir{width:30%;height:100%;align-items:center;justify-content:space-around}#photo{width:80%;display:flex;justify-content:center;align-items:center}#photo_moi{height:80%;width:auto}#contenu_bande_noir{width:80%;justify-content:space-between}#Partie_basse_bande_blanche,#Partie_haute_bande_blanche{flex-direction:column;display:flex}.boite_text_bande_noir h3{font-family:Helvetica,sans-serif;margin-top:20px;margin-bottom:20px;font-size:1em}.boite_text_bande_blanche b,.boite_text_bande_noir li,input,label,p,textarea{font-family:'Courier New',Courier,monospace}.boite_text_bande_noir li,p{list-style:disc}#bande_blanche{width:55%;height:100%}#Partie_haute_bande_blanche{justify-content:center;font-family:Helvetica,sans-serif}#Partie_haute_bande_blanche h1{font-size:3em}.boite_text_bande_blanche{margin-bottom:10%}.boite_text_bande_blanche b{font-weight:900}.boite_text_bande_blanche p{margin-top:20px;margin-bottom:20px;font-size:.9em}.boite_text_bande_blanche h3{margin-bottom:5%;font-family:Helvetica,sans-serif;padding:10px}form{margin:50px auto;display:flex;flex-direction:column;justify-content:space-between;height:40%}label{color:#000;display:block}input,textarea{padding:10px;box-sizing:border-box}textarea{min-width:100%}#bouton_sub{display:flex;flex-direction:row;justify-content:center}input[type=submit]{width:25%;font-size:.7em}input[type=submit]:hover{width:25%;color:#fff;background-color:#000}#boite_productions{width:100%;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-around}.production{width:350px;aspect-ratio:1/1;margin:5%;display:flex;justify-content:center}.cache,.production:hover .img{display:none}img{height:auto}.cache{width:100%;height:100%}.description{width:100%;max-height:100%;padding:5%;box-sizing:border-box;display:flex;flex-direction:column}.description h3{font-family:Helvetica,sans-serif;font-size:1.1em}.description p{margin-left:5%;font-family:'Courier New',Courier,monospace;font-size:.9em}.production:hover .cache{display:flex;flex-direction:column-reverse}@media screen and (max-width:900px){#page_droite,header,nav,nav ul,textarea{width:100%}input[type=submit],nav ul li{width:100px;height:25px;padding:0}#page,.production,header{display:flex}#page{flex-direction:column;justify-content:space-between}#page_gauche{width:100%;height:auto}header{height:100px;min-height:100px;align-items:center}#boite_logo{width:70px;margin:auto}nav{min-height:50px;height:50px}nav ul{height:100%;flex-direction:row}footer{display:none}#page_droite{margin-left:0}h1{font-size:3em;margin-top:50px}textarea{padding:10px;box-sizing:border-box;height:200px}input[type=submit]{box-sizing:content-box}.production{width:60%;aspect-ratio:1/1;margin:5%;background-color:#fff;border:10px solid #000;justify-content:center}}@media screen and (max-width:500px){#contenu_cv{font-size:.6em}#bande_noir{width:40%;height:100%;background-color:#000;display:flex;flex-direction:column;align-items:center;justify-content:space-around}#Partie_haute_bande_blanche h1{font-size:1.5em}#Partie_haute_bande_blanche h2{font-size:1em}}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: #e8e8e8;
+
+}
+
+#page{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#page_gauche{
+    height: 100vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+
+}
+
+header{
+    width: 100%;
+    height: 25%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#boite_logo{
+    width: 25%;
+    margin: auto;
+
+}
+
+#logo{
+width: 100%;
+}
+
+nav{
+    width: 100%;
+    height: 55%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+
+}
+
+nav ul li {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: 10px solid black;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+
+
+}
+
+nav ul li:hover{
+    
+    background-color: black;
+}
+
+nav ul li:hover a{
+    color:white;
+
+}
+
+nav ul li a{
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7em;
+
+}
+
+footer{
+    height: 20%;
+    display: flex;
+
+    align-items: center;
+}
+
+footer p{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    font-size: 0.7em;
+}
+
+
+
+#page_droite{
+    width: 70%;}
+
+#boite_text{
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+ h1{
+    margin-top: 150px;
+    font-size: 5em;
+    color: white;
+    background-color: black;
+    word-wrap: break-word;
+
+
+
+}
+h2{
+    margin-top: 1%;
+    font-size: 3em;
+    background-color: white;
+    color: black;
+
+
+}
+
+h2:hover{
+    text-decoration: underline;
+}
+
+
+#boite_cv{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#contenu_cv{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.9em;
+    word-wrap: break-word;
+}
+#contenu_cv h1{
+
+    font-size: 2em;
+}
+
+#bande_noir{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+}
+
+#photo{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo_moi{
+    height: 80%;
+    width: auto;
+}
+
+
+#contenu_bande_noir{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.boite_text_bande_noir{
+    color: white;
+
+
+
+}
+
+.boite_text_bande_noir h3{
+    font-family: Helvetica, sans-serif;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1em;
+
+}
+
+.boite_text_bande_noir li,p{
+    font-family: 'Courier New', Courier, monospace;
+    list-style: disc;
+}
+
+
+#bande_blanche{
+width: 55%;
+height: 100%;
+}
+
+#Partie_haute_bande_blanche{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+
+}
+
+#Partie_haute_bande_blanche h1{
+    font-size: 3em;
+    color: black; 
+    background-color: transparent;
+}
+
+#Partie_basse_bande_blanche{
+    display: flex;
+    flex-direction: column;
+}
+
+.boite_text_bande_blanche{
+    margin-bottom: 10%
+}
+
+.boite_text_bande_blanche b{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+.boite_text_bande_blanche p{
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+
+}
+
+.boite_text_bande_blanche h3{
+    margin-bottom: 5%;
+    font-family:Helvetica, sans-serif;
+    padding: 10px;
+}
+
+
+#boite_text #titre_contact{
+    background-color: transparent;
+    color: black;
+}
+
+form{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+    width: 70%;
+    margin-bottom: 50px;
+
+}
+
+label{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+}
+
+input,textarea{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+#bouton_sub{
+    width: 100%;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+}
+
+input[type=submit]{
+    border: 10px solid black;
+    width: 25%;
+    background-color: white;
+    font-size: 0.7em;
+}
+
+input[type=submit]:hover{
+    width: 25%;
+    color: white;
+    background-color: black;
+}
+
+
+
+#boite_productions{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.production{
+    width: 350px;
+    aspect-ratio: 1/1;
+    margin: 5%;
+    background-color: white;
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.production:hover{
+    transition-property:background-color,width;
+    transition-duration:0.4s;
+    transition-timing-function: linear;
+    background-color: black;
+    animation: scale 0.3s linear;
+    
+} 
+
+@keyframes scale {
+    from {transform: scale(1);}
+    50% {transform: scale(1.05);;}
+    to {transform: scale(1);}
+    }
+
+     
+
+
+.production:hover .img{
+    display: none;
+} 
+
+
+
+img{
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+.cache{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.description{
+    width: 100%;
+    max-height: 100%;
+    color: white;
+    padding: 5%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.description h3{
+    font-family:  Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+.description p{
+    margin-left: 5%;
+    font-family:  'Courier New', Courier, monospace;
+    font-size: 0.9em;
+}
+
+.production:hover .cache{
+    display: flex;
+    flex-direction: column-reverse;
+    } 
+
+
+@media screen and (max-width: 900px) {
+    body{
+
+    }
+
+    #page{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #page_gauche{
+        width: 100%;
+        height: auto;
+
+    }
+    header {
+        width: 100%;
+        height: 100px;
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+
+    }
+    #boite_logo {
+        width: 70px;
+        margin: auto;
+    }
+    nav {
+        width: 100%;
+        min-height: 50px;
+        height: 50px;  
+    }
+
+    nav ul {
+        height: 100%;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    nav ul li {
+        width: 100px;
+        height: 25px;
+        padding: 0;        
+    }
+
+    footer{
+        display: none;
+    }
+
+    #page_droite{
+        width: 100%;
+        margin-left: 0px;
+    }
+    h1{
+        font-size: 3em;
+        margin-top: 50px;     
+    }
+
+    textarea{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        height: 200px;
+    }
+
+    input[type=submit]{
+        width: 100px;
+        height: 25px;
+        padding: 0;
+        box-sizing: content-box;
+    }
+
+    .production{
+        width: 60%;
+        aspect-ratio: 1/1;
+        margin: 5%;
+        background-color: white;
+        border: 10px solid black;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+@media screen and (max-width: 500px){
+    #contenu_cv{
+        font-size: 0.6em;
+    }
+
+    #bande_noir {
+        width: 40%;
+        height: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    #Partie_haute_bande_blanche h1{
+        font-size: 1.5em;
+    }
+    #Partie_haute_bande_blanche h2{
+        font-size: 1em;
+    }
+}
